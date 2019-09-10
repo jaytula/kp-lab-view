@@ -11,15 +11,16 @@ const useStyles = makeStyles({
     maxWidth: "1080px",
     "& a:link, & a:visited": {
       color: "blue"
-    }
+    },
+    fontSize: "12px"
   },
   resultTitle: {
     fontWeight: "bold",
     display: "grid",
-    gridTemplateColumns: "auto 1fr 1fr",
+    gridTemplateColumns: "auto 1fr auto",
     gridColumnGap: "8px"
   },
-  result: { margin: "8px", padding: "8px", border: "1px solid #ccc" },
+  result: { margin: "6px", padding: "4px", border: "1px solid #ccc" },
   resultItem: {
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr",
